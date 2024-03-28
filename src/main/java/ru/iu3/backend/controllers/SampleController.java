@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     @GetMapping("/title")
-    public String getTitle() {
+    public String getTitle(){
         return "<title>Hello from Back-end</title>";
     }
 }
